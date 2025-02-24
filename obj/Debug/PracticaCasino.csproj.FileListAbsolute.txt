@@ -18,3 +18,13 @@ C:\Users\Marcos Daniel\OneDrive - tec tijuana\Ingenieria en Sistemas Computacion
 C:\Users\Marcos Daniel\OneDrive - tec tijuana\Ingenieria en Sistemas Computacionales\Cuarto Semestre - ISC\Topicos Avanzados de Programacion\PracticaCasino\obj\Debug\PracticaCasino.csproj.CoreCompileInputs.cache
 C:\Users\Marcos Daniel\OneDrive - tec tijuana\Ingenieria en Sistemas Computacionales\Cuarto Semestre - ISC\Topicos Avanzados de Programacion\PracticaCasino\obj\Debug\PracticaCasino.exe
 C:\Users\Marcos Daniel\OneDrive - tec tijuana\Ingenieria en Sistemas Computacionales\Cuarto Semestre - ISC\Topicos Avanzados de Programacion\PracticaCasino\obj\Debug\PracticaCasino.pdb
+D:\programacion\Proyectos\PracticaCasino\bin\Debug\PracticaCasino.exe.config
+D:\programacion\Proyectos\PracticaCasino\bin\Debug\PracticaCasino.exe
+D:\programacion\Proyectos\PracticaCasino\bin\Debug\PracticaCasino.pdb
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.csproj.AssemblyReference.cache
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.Form1.resources
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.Properties.Resources.resources
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.csproj.GenerateResource.cache
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.csproj.CoreCompileInputs.cache
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.exe
+D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.pdb

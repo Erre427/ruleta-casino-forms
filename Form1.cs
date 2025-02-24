@@ -12,6 +12,7 @@ namespace PracticaCasino
 {
     public partial class Form1 : Form
     {
+        List<PictureBox> Fichas = new List<PictureBox>();
         List<int> apuesta = new List<int>();
         List<Rectangle> numeros = new List<Rectangle>();
         private int nsaldo = 100;
@@ -81,10 +82,11 @@ namespace PracticaCasino
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            InicNums();
+            
             inicio.Visible = true;
             mesa.Visible = false;
             ayuda.Visible = false;
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -111,15 +113,7 @@ namespace PracticaCasino
             
         }
 
-        private void mesajuego_MouseClick(object sender, MouseEventArgs e)
-        {
-            
-            int x = e.X;
-            int y = e.Y;
-
-            AsignAp(e.X,e.Y);
-
-        }
+        
         private void RestarSaldo(int ficha)
         {
             nsaldo = nsaldo - ficha;
@@ -153,6 +147,7 @@ namespace PracticaCasino
 
                     if (i.Contains(x, y))
                     {
+                        
                         apuesta.Add(ficha);
                         RestarSaldo(ficha);
                         banap = true;
@@ -160,6 +155,8 @@ namespace PracticaCasino
                     }
                     
                 }
+
+
                 
             }
             
@@ -169,45 +166,12 @@ namespace PracticaCasino
                 banap = true;
             }
         }
-        private void InicNums()
-        {
-            numeros.Add(new Rectangle(88, 140, 42, 59));
-            numeros.Add(new Rectangle(88, 82, 42, 59));
-            numeros.Add(new Rectangle(88, 24, 42, 59));
-            numeros.Add(new Rectangle(132, 140, 42, 59));
-            numeros.Add(new Rectangle(132, 82, 42, 59));
-            numeros.Add(new Rectangle(132, 24, 42, 59));
-            numeros.Add(new Rectangle(175, 140, 42, 59));
-            numeros.Add(new Rectangle(175, 82, 42, 59));
-            numeros.Add(new Rectangle(175, 24, 42, 59));
-            numeros.Add(new Rectangle(219, 140, 42, 59));
-            numeros.Add(new Rectangle(219, 82, 42, 59));
-            numeros.Add(new Rectangle(219, 24, 42, 59));
-            numeros.Add(new Rectangle(262, 140, 42, 59));
-            numeros.Add(new Rectangle(262, 82, 42, 59));
-            numeros.Add(new Rectangle(262, 24, 42, 59));
-            numeros.Add(new Rectangle(305, 140, 42, 59));
-            numeros.Add(new Rectangle(305, 82, 42, 59));
-            numeros.Add(new Rectangle(305, 24, 42, 59));
-            numeros.Add(new Rectangle(348, 140, 42, 59));
-            numeros.Add(new Rectangle(348, 82, 42, 59));
-            numeros.Add(new Rectangle(348, 24, 42, 59));
-            numeros.Add(new Rectangle(391, 140, 42, 59));
-            numeros.Add(new Rectangle(391, 82, 42, 59));
-            numeros.Add(new Rectangle(391, 24, 42, 59));
-            numeros.Add(new Rectangle(435, 140, 42, 59));
-            numeros.Add(new Rectangle(435, 82, 42, 59));
-            numeros.Add(new Rectangle(435, 24, 42, 59));
-            numeros.Add(new Rectangle(479, 140, 42, 59));
-            numeros.Add(new Rectangle(479, 82, 42, 59));
-            numeros.Add(new Rectangle(479, 24, 42, 59));
-            numeros.Add(new Rectangle(521, 140, 42, 59));
-            numeros.Add(new Rectangle(521, 82, 42, 59));
-            numeros.Add(new Rectangle(521, 24, 42, 59));
-            numeros.Add(new Rectangle(564, 140, 42, 59));
-            numeros.Add(new Rectangle(564, 82, 42, 59));
-            numeros.Add(new Rectangle(564, 24, 42, 59));
-        }
+
+        
+
+
+
+        
 
     }
 }
