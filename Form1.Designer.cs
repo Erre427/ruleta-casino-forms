@@ -36,6 +36,46 @@
             this.btnJugar = new System.Windows.Forms.Button();
             this.fondo = new System.Windows.Forms.PictureBox();
             this.mesa = new System.Windows.Forms.Panel();
+            this.logapuestas = new System.Windows.Forms.TextBox();
+            this.n36 = new System.Windows.Forms.Button();
+            this.n35 = new System.Windows.Forms.Button();
+            this.n34 = new System.Windows.Forms.Button();
+            this.n33 = new System.Windows.Forms.Button();
+            this.n32 = new System.Windows.Forms.Button();
+            this.n31 = new System.Windows.Forms.Button();
+            this.n30 = new System.Windows.Forms.Button();
+            this.n29 = new System.Windows.Forms.Button();
+            this.n28 = new System.Windows.Forms.Button();
+            this.n27 = new System.Windows.Forms.Button();
+            this.n26 = new System.Windows.Forms.Button();
+            this.n25 = new System.Windows.Forms.Button();
+            this.n24 = new System.Windows.Forms.Button();
+            this.n23 = new System.Windows.Forms.Button();
+            this.n22 = new System.Windows.Forms.Button();
+            this.n21 = new System.Windows.Forms.Button();
+            this.n20 = new System.Windows.Forms.Button();
+            this.n19 = new System.Windows.Forms.Button();
+            this.n18 = new System.Windows.Forms.Button();
+            this.n17 = new System.Windows.Forms.Button();
+            this.n16 = new System.Windows.Forms.Button();
+            this.n15 = new System.Windows.Forms.Button();
+            this.n14 = new System.Windows.Forms.Button();
+            this.n13 = new System.Windows.Forms.Button();
+            this.n12 = new System.Windows.Forms.Button();
+            this.n11 = new System.Windows.Forms.Button();
+            this.n10 = new System.Windows.Forms.Button();
+            this.n9 = new System.Windows.Forms.Button();
+            this.n8 = new System.Windows.Forms.Button();
+            this.n7 = new System.Windows.Forms.Button();
+            this.btnnegro = new System.Windows.Forms.Button();
+            this.btnrojo = new System.Windows.Forms.Button();
+            this.n6 = new System.Windows.Forms.Button();
+            this.n5 = new System.Windows.Forms.Button();
+            this.n4 = new System.Windows.Forms.Button();
+            this.n3 = new System.Windows.Forms.Button();
+            this.n2 = new System.Windows.Forms.Button();
+            this.n1 = new System.Windows.Forms.Button();
+            this.btncero = new System.Windows.Forms.Button();
             this.btnayuda = new System.Windows.Forms.Button();
             this.a100 = new System.Windows.Forms.Button();
             this.a80 = new System.Windows.Forms.Button();
@@ -52,43 +92,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.inicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).BeginInit();
@@ -162,43 +166,47 @@
             // 
             this.mesa.BackColor = System.Drawing.Color.Transparent;
             this.mesa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.mesa.Controls.Add(this.button32);
-            this.mesa.Controls.Add(this.button33);
-            this.mesa.Controls.Add(this.button34);
-            this.mesa.Controls.Add(this.button35);
-            this.mesa.Controls.Add(this.button36);
-            this.mesa.Controls.Add(this.button37);
-            this.mesa.Controls.Add(this.button17);
-            this.mesa.Controls.Add(this.button18);
-            this.mesa.Controls.Add(this.button19);
-            this.mesa.Controls.Add(this.button20);
-            this.mesa.Controls.Add(this.button21);
-            this.mesa.Controls.Add(this.button22);
-            this.mesa.Controls.Add(this.button23);
-            this.mesa.Controls.Add(this.button24);
-            this.mesa.Controls.Add(this.button25);
-            this.mesa.Controls.Add(this.button26);
-            this.mesa.Controls.Add(this.button27);
-            this.mesa.Controls.Add(this.button28);
-            this.mesa.Controls.Add(this.button29);
-            this.mesa.Controls.Add(this.button30);
-            this.mesa.Controls.Add(this.button31);
-            this.mesa.Controls.Add(this.button14);
-            this.mesa.Controls.Add(this.button15);
-            this.mesa.Controls.Add(this.button16);
-            this.mesa.Controls.Add(this.button11);
-            this.mesa.Controls.Add(this.button12);
-            this.mesa.Controls.Add(this.button13);
-            this.mesa.Controls.Add(this.button8);
-            this.mesa.Controls.Add(this.button9);
-            this.mesa.Controls.Add(this.button10);
-            this.mesa.Controls.Add(this.button5);
-            this.mesa.Controls.Add(this.button6);
-            this.mesa.Controls.Add(this.button7);
-            this.mesa.Controls.Add(this.button4);
-            this.mesa.Controls.Add(this.button3);
-            this.mesa.Controls.Add(this.button2);
-            this.mesa.Controls.Add(this.button1);
+            this.mesa.Controls.Add(this.label4);
+            this.mesa.Controls.Add(this.logapuestas);
+            this.mesa.Controls.Add(this.n36);
+            this.mesa.Controls.Add(this.n35);
+            this.mesa.Controls.Add(this.n34);
+            this.mesa.Controls.Add(this.n33);
+            this.mesa.Controls.Add(this.n32);
+            this.mesa.Controls.Add(this.n31);
+            this.mesa.Controls.Add(this.n30);
+            this.mesa.Controls.Add(this.n29);
+            this.mesa.Controls.Add(this.n28);
+            this.mesa.Controls.Add(this.n27);
+            this.mesa.Controls.Add(this.n26);
+            this.mesa.Controls.Add(this.n25);
+            this.mesa.Controls.Add(this.n24);
+            this.mesa.Controls.Add(this.n23);
+            this.mesa.Controls.Add(this.n22);
+            this.mesa.Controls.Add(this.n21);
+            this.mesa.Controls.Add(this.n20);
+            this.mesa.Controls.Add(this.n19);
+            this.mesa.Controls.Add(this.n18);
+            this.mesa.Controls.Add(this.n17);
+            this.mesa.Controls.Add(this.n16);
+            this.mesa.Controls.Add(this.n15);
+            this.mesa.Controls.Add(this.n14);
+            this.mesa.Controls.Add(this.n13);
+            this.mesa.Controls.Add(this.n12);
+            this.mesa.Controls.Add(this.n11);
+            this.mesa.Controls.Add(this.n10);
+            this.mesa.Controls.Add(this.n9);
+            this.mesa.Controls.Add(this.n8);
+            this.mesa.Controls.Add(this.n7);
+            this.mesa.Controls.Add(this.btnnegro);
+            this.mesa.Controls.Add(this.btnrojo);
+            this.mesa.Controls.Add(this.n6);
+            this.mesa.Controls.Add(this.n5);
+            this.mesa.Controls.Add(this.n4);
+            this.mesa.Controls.Add(this.n3);
+            this.mesa.Controls.Add(this.n2);
+            this.mesa.Controls.Add(this.n1);
+            this.mesa.Controls.Add(this.btncero);
             this.mesa.Controls.Add(this.btnayuda);
             this.mesa.Controls.Add(this.a100);
             this.mesa.Controls.Add(this.a80);
@@ -214,6 +222,494 @@
             this.mesa.Name = "mesa";
             this.mesa.Size = new System.Drawing.Size(898, 552);
             this.mesa.TabIndex = 3;
+            // 
+            // logapuestas
+            // 
+            this.logapuestas.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.logapuestas.Location = new System.Drawing.Point(3, 82);
+            this.logapuestas.Multiline = true;
+            this.logapuestas.Name = "logapuestas";
+            this.logapuestas.ReadOnly = true;
+            this.logapuestas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.logapuestas.Size = new System.Drawing.Size(155, 325);
+            this.logapuestas.TabIndex = 79;
+            // 
+            // n36
+            // 
+            this.n36.BackColor = System.Drawing.Color.Black;
+            this.n36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n36.ForeColor = System.Drawing.SystemColors.Control;
+            this.n36.Location = new System.Drawing.Point(635, 149);
+            this.n36.Name = "n36";
+            this.n36.Size = new System.Drawing.Size(35, 56);
+            this.n36.TabIndex = 78;
+            this.n36.Text = "36";
+            this.n36.UseVisualStyleBackColor = false;
+            // 
+            // n35
+            // 
+            this.n35.BackColor = System.Drawing.Color.Red;
+            this.n35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n35.ForeColor = System.Drawing.SystemColors.Control;
+            this.n35.Location = new System.Drawing.Point(635, 205);
+            this.n35.Name = "n35";
+            this.n35.Size = new System.Drawing.Size(35, 56);
+            this.n35.TabIndex = 77;
+            this.n35.Text = "35";
+            this.n35.UseVisualStyleBackColor = false;
+            // 
+            // n34
+            // 
+            this.n34.BackColor = System.Drawing.Color.Black;
+            this.n34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n34.ForeColor = System.Drawing.SystemColors.Control;
+            this.n34.Location = new System.Drawing.Point(635, 261);
+            this.n34.Name = "n34";
+            this.n34.Size = new System.Drawing.Size(35, 56);
+            this.n34.TabIndex = 76;
+            this.n34.Text = "34";
+            this.n34.UseVisualStyleBackColor = false;
+            // 
+            // n33
+            // 
+            this.n33.BackColor = System.Drawing.Color.Red;
+            this.n33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n33.ForeColor = System.Drawing.SystemColors.Control;
+            this.n33.Location = new System.Drawing.Point(600, 149);
+            this.n33.Name = "n33";
+            this.n33.Size = new System.Drawing.Size(35, 56);
+            this.n33.TabIndex = 75;
+            this.n33.Text = "33";
+            this.n33.UseVisualStyleBackColor = false;
+            // 
+            // n32
+            // 
+            this.n32.BackColor = System.Drawing.Color.Black;
+            this.n32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n32.ForeColor = System.Drawing.SystemColors.Control;
+            this.n32.Location = new System.Drawing.Point(600, 205);
+            this.n32.Name = "n32";
+            this.n32.Size = new System.Drawing.Size(35, 56);
+            this.n32.TabIndex = 74;
+            this.n32.Text = "32";
+            this.n32.UseVisualStyleBackColor = false;
+            // 
+            // n31
+            // 
+            this.n31.BackColor = System.Drawing.Color.Red;
+            this.n31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n31.ForeColor = System.Drawing.SystemColors.Control;
+            this.n31.Location = new System.Drawing.Point(600, 261);
+            this.n31.Name = "n31";
+            this.n31.Size = new System.Drawing.Size(35, 56);
+            this.n31.TabIndex = 73;
+            this.n31.Text = "31";
+            this.n31.UseVisualStyleBackColor = false;
+            // 
+            // n30
+            // 
+            this.n30.BackColor = System.Drawing.Color.Black;
+            this.n30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n30.ForeColor = System.Drawing.SystemColors.Control;
+            this.n30.Location = new System.Drawing.Point(565, 149);
+            this.n30.Name = "n30";
+            this.n30.Size = new System.Drawing.Size(35, 56);
+            this.n30.TabIndex = 72;
+            this.n30.Text = "30";
+            this.n30.UseVisualStyleBackColor = false;
+            // 
+            // n29
+            // 
+            this.n29.BackColor = System.Drawing.Color.Red;
+            this.n29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n29.ForeColor = System.Drawing.SystemColors.Control;
+            this.n29.Location = new System.Drawing.Point(565, 205);
+            this.n29.Name = "n29";
+            this.n29.Size = new System.Drawing.Size(35, 56);
+            this.n29.TabIndex = 71;
+            this.n29.Text = "29";
+            this.n29.UseVisualStyleBackColor = false;
+            // 
+            // n28
+            // 
+            this.n28.BackColor = System.Drawing.Color.Black;
+            this.n28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n28.ForeColor = System.Drawing.SystemColors.Control;
+            this.n28.Location = new System.Drawing.Point(565, 261);
+            this.n28.Name = "n28";
+            this.n28.Size = new System.Drawing.Size(35, 56);
+            this.n28.TabIndex = 70;
+            this.n28.Text = "28";
+            this.n28.UseVisualStyleBackColor = false;
+            // 
+            // n27
+            // 
+            this.n27.BackColor = System.Drawing.Color.Red;
+            this.n27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n27.ForeColor = System.Drawing.SystemColors.Control;
+            this.n27.Location = new System.Drawing.Point(530, 149);
+            this.n27.Name = "n27";
+            this.n27.Size = new System.Drawing.Size(35, 56);
+            this.n27.TabIndex = 69;
+            this.n27.Text = "27";
+            this.n27.UseVisualStyleBackColor = false;
+            // 
+            // n26
+            // 
+            this.n26.BackColor = System.Drawing.Color.Black;
+            this.n26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n26.ForeColor = System.Drawing.SystemColors.Control;
+            this.n26.Location = new System.Drawing.Point(530, 205);
+            this.n26.Name = "n26";
+            this.n26.Size = new System.Drawing.Size(35, 56);
+            this.n26.TabIndex = 68;
+            this.n26.Text = "26";
+            this.n26.UseVisualStyleBackColor = false;
+            // 
+            // n25
+            // 
+            this.n25.BackColor = System.Drawing.Color.Red;
+            this.n25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n25.ForeColor = System.Drawing.SystemColors.Control;
+            this.n25.Location = new System.Drawing.Point(530, 261);
+            this.n25.Name = "n25";
+            this.n25.Size = new System.Drawing.Size(35, 56);
+            this.n25.TabIndex = 67;
+            this.n25.Text = "25";
+            this.n25.UseVisualStyleBackColor = false;
+            // 
+            // n24
+            // 
+            this.n24.BackColor = System.Drawing.Color.Black;
+            this.n24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n24.ForeColor = System.Drawing.SystemColors.Control;
+            this.n24.Location = new System.Drawing.Point(496, 149);
+            this.n24.Name = "n24";
+            this.n24.Size = new System.Drawing.Size(35, 56);
+            this.n24.TabIndex = 66;
+            this.n24.Text = "24";
+            this.n24.UseVisualStyleBackColor = false;
+            // 
+            // n23
+            // 
+            this.n23.BackColor = System.Drawing.Color.Red;
+            this.n23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n23.ForeColor = System.Drawing.SystemColors.Control;
+            this.n23.Location = new System.Drawing.Point(496, 205);
+            this.n23.Name = "n23";
+            this.n23.Size = new System.Drawing.Size(35, 56);
+            this.n23.TabIndex = 65;
+            this.n23.Text = "23";
+            this.n23.UseVisualStyleBackColor = false;
+            // 
+            // n22
+            // 
+            this.n22.BackColor = System.Drawing.Color.Black;
+            this.n22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n22.ForeColor = System.Drawing.SystemColors.Control;
+            this.n22.Location = new System.Drawing.Point(496, 261);
+            this.n22.Name = "n22";
+            this.n22.Size = new System.Drawing.Size(35, 56);
+            this.n22.TabIndex = 64;
+            this.n22.Text = "22";
+            this.n22.UseVisualStyleBackColor = false;
+            // 
+            // n21
+            // 
+            this.n21.BackColor = System.Drawing.Color.Red;
+            this.n21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n21.ForeColor = System.Drawing.SystemColors.Control;
+            this.n21.Location = new System.Drawing.Point(461, 149);
+            this.n21.Name = "n21";
+            this.n21.Size = new System.Drawing.Size(35, 56);
+            this.n21.TabIndex = 63;
+            this.n21.Text = "21";
+            this.n21.UseVisualStyleBackColor = false;
+            // 
+            // n20
+            // 
+            this.n20.BackColor = System.Drawing.Color.Black;
+            this.n20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n20.ForeColor = System.Drawing.SystemColors.Control;
+            this.n20.Location = new System.Drawing.Point(461, 205);
+            this.n20.Name = "n20";
+            this.n20.Size = new System.Drawing.Size(35, 56);
+            this.n20.TabIndex = 62;
+            this.n20.Text = "20";
+            this.n20.UseVisualStyleBackColor = false;
+            // 
+            // n19
+            // 
+            this.n19.BackColor = System.Drawing.Color.Red;
+            this.n19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n19.ForeColor = System.Drawing.SystemColors.Control;
+            this.n19.Location = new System.Drawing.Point(461, 261);
+            this.n19.Name = "n19";
+            this.n19.Size = new System.Drawing.Size(35, 56);
+            this.n19.TabIndex = 61;
+            this.n19.Text = "19";
+            this.n19.UseVisualStyleBackColor = false;
+            // 
+            // n18
+            // 
+            this.n18.BackColor = System.Drawing.Color.Black;
+            this.n18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n18.ForeColor = System.Drawing.SystemColors.Control;
+            this.n18.Location = new System.Drawing.Point(427, 149);
+            this.n18.Name = "n18";
+            this.n18.Size = new System.Drawing.Size(35, 56);
+            this.n18.TabIndex = 60;
+            this.n18.Text = "18";
+            this.n18.UseVisualStyleBackColor = false;
+            // 
+            // n17
+            // 
+            this.n17.BackColor = System.Drawing.Color.Red;
+            this.n17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n17.ForeColor = System.Drawing.SystemColors.Control;
+            this.n17.Location = new System.Drawing.Point(427, 205);
+            this.n17.Name = "n17";
+            this.n17.Size = new System.Drawing.Size(35, 56);
+            this.n17.TabIndex = 59;
+            this.n17.Text = "17";
+            this.n17.UseVisualStyleBackColor = false;
+            // 
+            // n16
+            // 
+            this.n16.BackColor = System.Drawing.Color.Black;
+            this.n16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n16.ForeColor = System.Drawing.SystemColors.Control;
+            this.n16.Location = new System.Drawing.Point(427, 261);
+            this.n16.Name = "n16";
+            this.n16.Size = new System.Drawing.Size(35, 56);
+            this.n16.TabIndex = 58;
+            this.n16.Text = "16";
+            this.n16.UseVisualStyleBackColor = false;
+            // 
+            // n15
+            // 
+            this.n15.BackColor = System.Drawing.Color.Red;
+            this.n15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n15.ForeColor = System.Drawing.SystemColors.Control;
+            this.n15.Location = new System.Drawing.Point(392, 149);
+            this.n15.Name = "n15";
+            this.n15.Size = new System.Drawing.Size(35, 56);
+            this.n15.TabIndex = 57;
+            this.n15.Text = "15";
+            this.n15.UseVisualStyleBackColor = false;
+            // 
+            // n14
+            // 
+            this.n14.BackColor = System.Drawing.Color.Black;
+            this.n14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n14.ForeColor = System.Drawing.SystemColors.Control;
+            this.n14.Location = new System.Drawing.Point(392, 205);
+            this.n14.Name = "n14";
+            this.n14.Size = new System.Drawing.Size(35, 56);
+            this.n14.TabIndex = 56;
+            this.n14.Text = "14";
+            this.n14.UseVisualStyleBackColor = false;
+            // 
+            // n13
+            // 
+            this.n13.BackColor = System.Drawing.Color.Red;
+            this.n13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n13.ForeColor = System.Drawing.SystemColors.Control;
+            this.n13.Location = new System.Drawing.Point(392, 261);
+            this.n13.Name = "n13";
+            this.n13.Size = new System.Drawing.Size(35, 56);
+            this.n13.TabIndex = 55;
+            this.n13.Text = "13";
+            this.n13.UseVisualStyleBackColor = false;
+            // 
+            // n12
+            // 
+            this.n12.BackColor = System.Drawing.Color.Black;
+            this.n12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n12.ForeColor = System.Drawing.SystemColors.Control;
+            this.n12.Location = new System.Drawing.Point(360, 149);
+            this.n12.Name = "n12";
+            this.n12.Size = new System.Drawing.Size(35, 56);
+            this.n12.TabIndex = 54;
+            this.n12.Text = "12";
+            this.n12.UseVisualStyleBackColor = false;
+            // 
+            // n11
+            // 
+            this.n11.BackColor = System.Drawing.Color.Red;
+            this.n11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n11.ForeColor = System.Drawing.SystemColors.Control;
+            this.n11.Location = new System.Drawing.Point(360, 205);
+            this.n11.Name = "n11";
+            this.n11.Size = new System.Drawing.Size(35, 56);
+            this.n11.TabIndex = 53;
+            this.n11.Text = "11";
+            this.n11.UseVisualStyleBackColor = false;
+            // 
+            // n10
+            // 
+            this.n10.BackColor = System.Drawing.Color.Black;
+            this.n10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n10.ForeColor = System.Drawing.SystemColors.Control;
+            this.n10.Location = new System.Drawing.Point(360, 261);
+            this.n10.Name = "n10";
+            this.n10.Size = new System.Drawing.Size(35, 56);
+            this.n10.TabIndex = 52;
+            this.n10.Text = "10";
+            this.n10.UseVisualStyleBackColor = false;
+            // 
+            // n9
+            // 
+            this.n9.BackColor = System.Drawing.Color.Red;
+            this.n9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n9.ForeColor = System.Drawing.SystemColors.Control;
+            this.n9.Location = new System.Drawing.Point(325, 149);
+            this.n9.Name = "n9";
+            this.n9.Size = new System.Drawing.Size(35, 56);
+            this.n9.TabIndex = 51;
+            this.n9.Text = "9";
+            this.n9.UseVisualStyleBackColor = false;
+            // 
+            // n8
+            // 
+            this.n8.BackColor = System.Drawing.Color.Black;
+            this.n8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n8.ForeColor = System.Drawing.SystemColors.Control;
+            this.n8.Location = new System.Drawing.Point(325, 205);
+            this.n8.Name = "n8";
+            this.n8.Size = new System.Drawing.Size(35, 56);
+            this.n8.TabIndex = 50;
+            this.n8.Text = "8";
+            this.n8.UseVisualStyleBackColor = false;
+            // 
+            // n7
+            // 
+            this.n7.BackColor = System.Drawing.Color.Red;
+            this.n7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n7.ForeColor = System.Drawing.SystemColors.Control;
+            this.n7.Location = new System.Drawing.Point(325, 261);
+            this.n7.Name = "n7";
+            this.n7.Size = new System.Drawing.Size(35, 56);
+            this.n7.TabIndex = 49;
+            this.n7.Text = "7";
+            this.n7.UseVisualStyleBackColor = false;
+            // 
+            // btnnegro
+            // 
+            this.btnnegro.BackColor = System.Drawing.Color.Black;
+            this.btnnegro.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnnegro.FlatAppearance.BorderSize = 0;
+            this.btnnegro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnegro.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnnegro.Location = new System.Drawing.Point(455, 317);
+            this.btnnegro.Name = "btnnegro";
+            this.btnnegro.Size = new System.Drawing.Size(65, 67);
+            this.btnnegro.TabIndex = 48;
+            this.btnnegro.UseVisualStyleBackColor = false;
+            this.btnnegro.Click += new System.EventHandler(this.brnnegro_Click);
+            // 
+            // btnrojo
+            // 
+            this.btnrojo.BackColor = System.Drawing.Color.Red;
+            this.btnrojo.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnrojo.FlatAppearance.BorderSize = 0;
+            this.btnrojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnrojo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnrojo.Location = new System.Drawing.Point(392, 317);
+            this.btnrojo.Name = "btnrojo";
+            this.btnrojo.Size = new System.Drawing.Size(65, 67);
+            this.btnrojo.TabIndex = 47;
+            this.btnrojo.UseVisualStyleBackColor = false;
+            this.btnrojo.Click += new System.EventHandler(this.btnrojo_Click);
+            // 
+            // n6
+            // 
+            this.n6.BackColor = System.Drawing.Color.Black;
+            this.n6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n6.ForeColor = System.Drawing.SystemColors.Control;
+            this.n6.Location = new System.Drawing.Point(290, 149);
+            this.n6.Name = "n6";
+            this.n6.Size = new System.Drawing.Size(35, 56);
+            this.n6.TabIndex = 16;
+            this.n6.Text = "6";
+            this.n6.UseVisualStyleBackColor = false;
+            // 
+            // n5
+            // 
+            this.n5.BackColor = System.Drawing.Color.Red;
+            this.n5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n5.ForeColor = System.Drawing.SystemColors.Control;
+            this.n5.Location = new System.Drawing.Point(290, 205);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(35, 56);
+            this.n5.TabIndex = 15;
+            this.n5.Text = "5";
+            this.n5.UseVisualStyleBackColor = false;
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.Black;
+            this.n4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n4.ForeColor = System.Drawing.SystemColors.Control;
+            this.n4.Location = new System.Drawing.Point(290, 261);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(35, 56);
+            this.n4.TabIndex = 14;
+            this.n4.Text = "4";
+            this.n4.UseVisualStyleBackColor = false;
+            // 
+            // n3
+            // 
+            this.n3.BackColor = System.Drawing.Color.Red;
+            this.n3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n3.ForeColor = System.Drawing.SystemColors.Control;
+            this.n3.Location = new System.Drawing.Point(255, 149);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(35, 56);
+            this.n3.TabIndex = 13;
+            this.n3.Text = "3";
+            this.n3.UseVisualStyleBackColor = false;
+            // 
+            // n2
+            // 
+            this.n2.BackColor = System.Drawing.Color.Black;
+            this.n2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n2.ForeColor = System.Drawing.SystemColors.Control;
+            this.n2.Location = new System.Drawing.Point(255, 205);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(35, 56);
+            this.n2.TabIndex = 12;
+            this.n2.Text = "2";
+            this.n2.UseVisualStyleBackColor = false;
+            this.n2.Click += new System.EventHandler(this.n2_Click);
+            // 
+            // n1
+            // 
+            this.n1.BackColor = System.Drawing.Color.Red;
+            this.n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.ForeColor = System.Drawing.SystemColors.Control;
+            this.n1.Location = new System.Drawing.Point(255, 261);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(35, 56);
+            this.n1.TabIndex = 11;
+            this.n1.Text = "1";
+            this.n1.UseVisualStyleBackColor = false;
+            this.n1.Click += new System.EventHandler(this.n1_Click);
+            // 
+            // btncero
+            // 
+            this.btncero.BackColor = System.Drawing.Color.Green;
+            this.btncero.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btncero.FlatAppearance.BorderSize = 0;
+            this.btncero.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncero.ForeColor = System.Drawing.SystemColors.Control;
+            this.btncero.Location = new System.Drawing.Point(190, 197);
+            this.btncero.Name = "btncero";
+            this.btncero.Size = new System.Drawing.Size(65, 67);
+            this.btncero.TabIndex = 10;
+            this.btncero.Text = "0";
+            this.btncero.UseVisualStyleBackColor = false;
+            this.btncero.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btnayuda
             // 
@@ -304,9 +800,9 @@
             // 
             this.mesajuego.BackColor = System.Drawing.Color.SaddleBrown;
             this.mesajuego.ImageLocation = "";
-            this.mesajuego.Location = new System.Drawing.Point(133, 88);
+            this.mesajuego.Location = new System.Drawing.Point(164, 132);
             this.mesajuego.Name = "mesajuego";
-            this.mesajuego.Size = new System.Drawing.Size(637, 336);
+            this.mesajuego.Size = new System.Drawing.Size(568, 275);
             this.mesajuego.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mesajuego.TabIndex = 1;
             this.mesajuego.TabStop = false;
@@ -382,345 +878,17 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Green;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Location = new System.Drawing.Point(173, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(65, 67);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(238, 271);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 56);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Black;
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(238, 215);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(35, 56);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(238, 159);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(35, 56);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(273, 159);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(35, 56);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(273, 215);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(35, 56);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(273, 271);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(35, 56);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(308, 159);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(35, 56);
-            this.button8.TabIndex = 19;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(308, 215);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(35, 56);
-            this.button9.TabIndex = 18;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(308, 271);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(35, 56);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(343, 159);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(35, 56);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(343, 215);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(35, 56);
-            this.button12.TabIndex = 21;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(343, 271);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(35, 56);
-            this.button13.TabIndex = 20;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(378, 159);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(35, 56);
-            this.button14.TabIndex = 25;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(378, 215);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(35, 56);
-            this.button15.TabIndex = 24;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(378, 271);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(35, 56);
-            this.button16.TabIndex = 23;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(553, 159);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(35, 56);
-            this.button17.TabIndex = 40;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(553, 215);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(35, 56);
-            this.button18.TabIndex = 39;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.Location = new System.Drawing.Point(553, 271);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(35, 56);
-            this.button19.TabIndex = 38;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(518, 159);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(35, 56);
-            this.button20.TabIndex = 37;
-            this.button20.Text = "button20";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(518, 215);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(35, 56);
-            this.button21.TabIndex = 36;
-            this.button21.Text = "button21";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.Location = new System.Drawing.Point(518, 271);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(35, 56);
-            this.button22.TabIndex = 35;
-            this.button22.Text = "button22";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.Location = new System.Drawing.Point(483, 159);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(35, 56);
-            this.button23.TabIndex = 34;
-            this.button23.Text = "button23";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.Location = new System.Drawing.Point(483, 215);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(35, 56);
-            this.button24.TabIndex = 33;
-            this.button24.Text = "button24";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.Location = new System.Drawing.Point(483, 271);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(35, 56);
-            this.button25.TabIndex = 32;
-            this.button25.Text = "button25";
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // button26
-            // 
-            this.button26.Location = new System.Drawing.Point(448, 159);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(35, 56);
-            this.button26.TabIndex = 31;
-            this.button26.Text = "button26";
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // button27
-            // 
-            this.button27.Location = new System.Drawing.Point(448, 215);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(35, 56);
-            this.button27.TabIndex = 30;
-            this.button27.Text = "button27";
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            this.button28.Location = new System.Drawing.Point(448, 271);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(35, 56);
-            this.button28.TabIndex = 29;
-            this.button28.Text = "button28";
-            this.button28.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            this.button29.Location = new System.Drawing.Point(413, 159);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(35, 56);
-            this.button29.TabIndex = 28;
-            this.button29.Text = "button29";
-            this.button29.UseVisualStyleBackColor = true;
-            // 
-            // button30
-            // 
-            this.button30.Location = new System.Drawing.Point(413, 215);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(35, 56);
-            this.button30.TabIndex = 27;
-            this.button30.Text = "button30";
-            this.button30.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            this.button31.Location = new System.Drawing.Point(413, 271);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(35, 56);
-            this.button31.TabIndex = 26;
-            this.button31.Text = "button31";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button32
-            // 
-            this.button32.Location = new System.Drawing.Point(623, 159);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(35, 56);
-            this.button32.TabIndex = 46;
-            this.button32.Text = "button32";
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            this.button33.Location = new System.Drawing.Point(623, 215);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(35, 56);
-            this.button33.TabIndex = 45;
-            this.button33.Text = "button33";
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Location = new System.Drawing.Point(623, 271);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(35, 56);
-            this.button34.TabIndex = 44;
-            this.button34.Text = "button34";
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // button35
-            // 
-            this.button35.Location = new System.Drawing.Point(588, 159);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(35, 56);
-            this.button35.TabIndex = 43;
-            this.button35.Text = "button35";
-            this.button35.UseVisualStyleBackColor = true;
-            // 
-            // button36
-            // 
-            this.button36.Location = new System.Drawing.Point(588, 215);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(35, 56);
-            this.button36.TabIndex = 42;
-            this.button36.Text = "button36";
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Location = new System.Drawing.Point(588, 271);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(35, 56);
-            this.button37.TabIndex = 41;
-            this.button37.Text = "button37";
-            this.button37.UseVisualStyleBackColor = true;
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label4.Location = new System.Drawing.Point(25, 34);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(99, 25);
+            this.label4.TabIndex = 80;
+            this.label4.Text = "Historial";
             // 
             // Form1
             // 
@@ -772,43 +940,47 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnvolver;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button n3;
+        private System.Windows.Forms.Button n2;
+        private System.Windows.Forms.Button n1;
+        private System.Windows.Forms.Button btncero;
+        private System.Windows.Forms.Button n6;
+        private System.Windows.Forms.Button n5;
+        private System.Windows.Forms.Button n4;
+        private System.Windows.Forms.Button n36;
+        private System.Windows.Forms.Button n35;
+        private System.Windows.Forms.Button n34;
+        private System.Windows.Forms.Button n33;
+        private System.Windows.Forms.Button n32;
+        private System.Windows.Forms.Button n31;
+        private System.Windows.Forms.Button n30;
+        private System.Windows.Forms.Button n29;
+        private System.Windows.Forms.Button n28;
+        private System.Windows.Forms.Button n27;
+        private System.Windows.Forms.Button n26;
+        private System.Windows.Forms.Button n25;
+        private System.Windows.Forms.Button n24;
+        private System.Windows.Forms.Button n23;
+        private System.Windows.Forms.Button n22;
+        private System.Windows.Forms.Button n21;
+        private System.Windows.Forms.Button n20;
+        private System.Windows.Forms.Button n19;
+        private System.Windows.Forms.Button n18;
+        private System.Windows.Forms.Button n17;
+        private System.Windows.Forms.Button n16;
+        private System.Windows.Forms.Button n15;
+        private System.Windows.Forms.Button n14;
+        private System.Windows.Forms.Button n13;
+        private System.Windows.Forms.Button n12;
+        private System.Windows.Forms.Button n11;
+        private System.Windows.Forms.Button n10;
+        private System.Windows.Forms.Button n9;
+        private System.Windows.Forms.Button n8;
+        private System.Windows.Forms.Button n7;
+        private System.Windows.Forms.Button btnnegro;
+        private System.Windows.Forms.Button btnrojo;
+        private System.Windows.Forms.TextBox logapuestas;
+        private System.Windows.Forms.Label label4;
     }
 }
 

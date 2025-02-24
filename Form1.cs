@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,46 +13,45 @@ namespace PracticaCasino
 {
     public partial class Form1 : Form
     {
-        List<PictureBox> Fichas = new List<PictureBox>();
-        List<int> apuesta = new List<int>();
-        List<Rectangle> numeros = new List<Rectangle>();
-        private int nsaldo = 100;
-        private bool banap = true;
-        private int ficha;
         
+        Dictionary<string, string> apuesta = new Dictionary<string, string>();
+        private int nsaldo = 100;
+        private int ficha;
+        private string color;
+        private bool check = false;
+        private string token;
         
         
 
         private void a100_Click(object sender, EventArgs e)
         {
             ficha = 100;
-            banap = false;
+            check = true;
         }
 
         private void a80_Click(object sender, EventArgs e)
         {
             ficha = 80;
-            banap = false;
+            check = true;
         }
 
         private void a50_Click(object sender, EventArgs e)
         {
             ficha = 50;
-            banap = false;
+            check = true;
         }
 
         private void a25_Click(object sender, EventArgs e)
         {
             ficha = 25;
-            banap = false;
+            check = true;
         }
 
 
         private void a10_Click(object sender, EventArgs e)
         {
             ficha = 10;
-            banap = false;
-
+            check = true;
         }
 
         public Form1()
@@ -109,7 +109,6 @@ namespace PracticaCasino
         private void timer1_Tick(object sender, EventArgs e)
         {
             saldo.Text = nsaldo.ToString();
-            DesFichas();
             
         }
 
@@ -118,60 +117,145 @@ namespace PracticaCasino
         {
             nsaldo = nsaldo - ficha;
         }
-        private void DesFichas()
+        
+
+        private void AsignAp()
         {
-            if(banap == false)
-            {
-                a10.Enabled = false;
-                a25.Enabled = false;
-                a50.Enabled = false;
-                a80.Enabled = false;
-                a100.Enabled = false;
-            }
-            else
-            {
-                a10.Enabled = true;
-                a25.Enabled = true;
-                a50.Enabled = true;
-                a80.Enabled = true;
-                a100.Enabled = true;
-            }
+            
+            apuesta.Add(token, color);
+            string log = $"Apuesta de ${ficha} al {token}";
+            logapuestas.Text = log + Environment.NewLine + logapuestas.Text;
+            RestarSaldo(ficha);
+            ficha = 0;
+            color = null;
         }
 
-        private void AsignAp(int x, int y)
+        private void btnrojo_Click(object sender, EventArgs e)
         {
             if (nsaldo > 0 && ficha <= nsaldo)
             {
-                foreach (var i in numeros)
+                if (check == false)
+                {
+                    MessageBox.Show("Elija una apuesta primero");
+                }
+                else
                 {
 
-                    if (i.Contains(x, y))
-                    {
-                        
-                        apuesta.Add(ficha);
-                        RestarSaldo(ficha);
-                        banap = true;
-                        ficha = 0;
-                    }
-                    
+                    color = "rojo";
+                    token = "rojo";
+                    btnrojo.Enabled = false;
+                    btnrojo.Text = "X";
+                    AsignAp();
                 }
 
-
-                
             }
-            
             else
             {
                 MessageBox.Show("Saldo insuficiente");
-                banap = true;
+            }
+            
+            
+        }
+
+        private void brnnegro_Click(object sender, EventArgs e)
+        {
+            if (nsaldo > 0 && ficha <= nsaldo)
+            {
+
+                if (check == false)
+                {
+                    MessageBox.Show("Elija una apuesta primero");
+                }
+                else
+                {
+                    color = "negro";
+                    token = "negro";
+                    btnnegro.Enabled = false;
+                    btnnegro.Text = "XX\nXX";
+                    AsignAp();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Saldo insuficiente");
+            }
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (nsaldo > 0 && ficha <= nsaldo)
+            {
+                if (check == false)
+                {
+                    MessageBox.Show("Elija una apuesta primero");
+                }
+                else
+                {
+                    color = "cero";
+                    token = "0";
+                    btncero.Enabled = false;
+                    btncero.Text = "XX\nXX";
+                    AsignAp();
+
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Saldo insuficiente");
+            }
+            
+        }
+
+        private void n1_Click(object sender, EventArgs e)
+        {
+            if (nsaldo > 0 && ficha <= nsaldo)
+            {
+                if (check == false)
+                {
+                    MessageBox.Show("Elija una apuesta primero");
+                }
+                else
+                {
+                    color = "rojo";
+                    token = "1";
+                    n1.Enabled = false;
+                    n1.Text = "XX\nXX";
+                    AsignAp();
+
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Saldo insuficiente");
             }
         }
 
-        
+        private void n2_Click(object sender, EventArgs e)
+        {
+            if (nsaldo > 0 && ficha <= nsaldo)
+            {
+                if (check == false)
+                {
+                    MessageBox.Show("Elija una apuesta primero");
+                }
+                else
+                {
+                    color = "negro";
+                    token = "2";
+                    n2.Enabled = false;
+                    n2.Text = "XX\nXX";
+                    AsignAp();
 
+                }
 
-
-        
-
+            }
+            else
+            {
+                MessageBox.Show("Saldo insuficiente");
+            }
+        }
     }
 }
