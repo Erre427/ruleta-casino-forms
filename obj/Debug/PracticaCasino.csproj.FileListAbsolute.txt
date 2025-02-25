@@ -38,3 +38,13 @@ E:\PracticaCasino\obj\Debug\PracticaCasino.csproj.GenerateResource.cache
 E:\PracticaCasino\obj\Debug\PracticaCasino.csproj.CoreCompileInputs.cache
 E:\PracticaCasino\obj\Debug\PracticaCasino.exe
 E:\PracticaCasino\obj\Debug\PracticaCasino.pdb
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\bin\Debug\PracticaCasino.exe.config
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\bin\Debug\PracticaCasino.exe
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\bin\Debug\PracticaCasino.pdb
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.csproj.AssemblyReference.cache
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.Form1.resources
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.Properties.Resources.resources
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.csproj.GenerateResource.cache
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.exe
+C:\Users\Marcos Daniel\Documents\Universidad\Topicos\PracticaCasino\obj\Debug\PracticaCasino.pdb

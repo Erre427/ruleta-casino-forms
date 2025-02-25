@@ -158,7 +158,10 @@ namespace PracticaCasino
             
         }
 
+        private void Random()
+        {
 
+        }
 
 
 
