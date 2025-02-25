@@ -28,3 +28,13 @@ D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.csproj.Generat
 D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.csproj.CoreCompileInputs.cache
 D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.exe
 D:\programacion\Proyectos\PracticaCasino\obj\Debug\PracticaCasino.pdb
+E:\PracticaCasino\bin\Debug\PracticaCasino.exe.config
+E:\PracticaCasino\bin\Debug\PracticaCasino.exe
+E:\PracticaCasino\bin\Debug\PracticaCasino.pdb
+E:\PracticaCasino\obj\Debug\PracticaCasino.csproj.AssemblyReference.cache
+E:\PracticaCasino\obj\Debug\PracticaCasino.Form1.resources
+E:\PracticaCasino\obj\Debug\PracticaCasino.Properties.Resources.resources
+E:\PracticaCasino\obj\Debug\PracticaCasino.csproj.GenerateResource.cache
+E:\PracticaCasino\obj\Debug\PracticaCasino.csproj.CoreCompileInputs.cache
+E:\PracticaCasino\obj\Debug\PracticaCasino.exe
+E:\PracticaCasino\obj\Debug\PracticaCasino.pdb

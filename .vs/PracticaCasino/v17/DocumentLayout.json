@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\programacion\\Proyectos\\PracticaCasino\\",
+  "WorkspaceRootPath": "E:\\PracticaCasino\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04EE3CBB-11AE-49C1-8B51-B42FCF8FA2CD}|PracticaCasino.csproj|d:\\programacion\\proyectos\\practicacasino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04EE3CBB-11AE-49C1-8B51-B42FCF8FA2CD}|PracticaCasino.csproj|e:\\practicacasino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04EE3CBB-11AE-49C1-8B51-B42FCF8FA2CD}|PracticaCasino.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04EE3CBB-11AE-49C1-8B51-B42FCF8FA2CD}|PracticaCasino.csproj|D:\\programacion\\Proyectos\\PracticaCasino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{04EE3CBB-11AE-49C1-8B51-B42FCF8FA2CD}|PracticaCasino.csproj|E:\\PracticaCasino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{04EE3CBB-11AE-49C1-8B51-B42FCF8FA2CD}|PracticaCasino.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,27 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\programacion\\Proyectos\\PracticaCasino\\Form1.cs",
+              "DocumentMoniker": "E:\\PracticaCasino\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\programacion\\Proyectos\\PracticaCasino\\Form1.cs",
+              "ToolTip": "E:\\PracticaCasino\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAKoAAAAAAAAAAAAAALIAAAANAAAA",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAJsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T03:36:07.493Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\programacion\\Proyectos\\PracticaCasino\\Form1.cs",
+              "DocumentMoniker": "E:\\PracticaCasino\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\programacion\\Proyectos\\PracticaCasino\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "E:\\PracticaCasino\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T03:36:08.21Z",
