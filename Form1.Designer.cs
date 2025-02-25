@@ -36,6 +36,7 @@
             this.btnJugar = new System.Windows.Forms.Button();
             this.fondo = new System.Windows.Forms.PictureBox();
             this.mesa = new System.Windows.Forms.Panel();
+            this.btnApostar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.logapuestas = new System.Windows.Forms.TextBox();
             this.n36 = new System.Windows.Forms.Button();
@@ -93,7 +94,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.ruleta = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.inicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).BeginInit();
@@ -102,6 +106,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.ayuda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.ruleta.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -167,7 +174,7 @@
             // 
             this.mesa.BackColor = System.Drawing.Color.Transparent;
             this.mesa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.mesa.Controls.Add(this.button1);
+            this.mesa.Controls.Add(this.btnApostar);
             this.mesa.Controls.Add(this.label4);
             this.mesa.Controls.Add(this.logapuestas);
             this.mesa.Controls.Add(this.n36);
@@ -225,13 +232,26 @@
             this.mesa.Size = new System.Drawing.Size(898, 552);
             this.mesa.TabIndex = 3;
             // 
+            // btnApostar
+            // 
+            this.btnApostar.BackColor = System.Drawing.Color.Maroon;
+            this.btnApostar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnApostar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApostar.Location = new System.Drawing.Point(763, 197);
+            this.btnApostar.Name = "btnApostar";
+            this.btnApostar.Size = new System.Drawing.Size(92, 144);
+            this.btnApostar.TabIndex = 81;
+            this.btnApostar.Text = "APOSTAR";
+            this.btnApostar.UseVisualStyleBackColor = false;
+            this.btnApostar.Click += new System.EventHandler(this.btnApostar_Click);
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Location = new System.Drawing.Point(25, 34);
+            this.label4.Location = new System.Drawing.Point(33, 59);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(99, 25);
             this.label4.TabIndex = 80;
@@ -240,12 +260,12 @@
             // logapuestas
             // 
             this.logapuestas.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.logapuestas.Location = new System.Drawing.Point(3, 82);
+            this.logapuestas.Location = new System.Drawing.Point(3, 107);
             this.logapuestas.Multiline = true;
             this.logapuestas.Name = "logapuestas";
             this.logapuestas.ReadOnly = true;
             this.logapuestas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.logapuestas.Size = new System.Drawing.Size(155, 325);
+            this.logapuestas.Size = new System.Drawing.Size(155, 300);
             this.logapuestas.TabIndex = 79;
             // 
             // n36
@@ -772,52 +792,57 @@
             // 
             // a100
             // 
+            this.a100.BackColor = System.Drawing.Color.Magenta;
             this.a100.Location = new System.Drawing.Point(623, 455);
             this.a100.Name = "a100";
             this.a100.Size = new System.Drawing.Size(75, 75);
             this.a100.TabIndex = 8;
             this.a100.Text = "$100";
-            this.a100.UseVisualStyleBackColor = true;
+            this.a100.UseVisualStyleBackColor = false;
             this.a100.Click += new System.EventHandler(this.a100_Click);
             // 
             // a80
             // 
+            this.a80.BackColor = System.Drawing.Color.Blue;
             this.a80.Location = new System.Drawing.Point(521, 455);
             this.a80.Name = "a80";
             this.a80.Size = new System.Drawing.Size(75, 75);
             this.a80.TabIndex = 7;
             this.a80.Text = "$80";
-            this.a80.UseVisualStyleBackColor = true;
+            this.a80.UseVisualStyleBackColor = false;
             this.a80.Click += new System.EventHandler(this.a80_Click);
             // 
             // a50
             // 
+            this.a50.BackColor = System.Drawing.Color.Yellow;
             this.a50.Location = new System.Drawing.Point(416, 455);
             this.a50.Name = "a50";
             this.a50.Size = new System.Drawing.Size(75, 75);
             this.a50.TabIndex = 6;
             this.a50.Text = "$50";
-            this.a50.UseVisualStyleBackColor = true;
+            this.a50.UseVisualStyleBackColor = false;
             this.a50.Click += new System.EventHandler(this.a50_Click);
             // 
             // a25
             // 
+            this.a25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a25.Location = new System.Drawing.Point(311, 455);
             this.a25.Name = "a25";
             this.a25.Size = new System.Drawing.Size(75, 75);
             this.a25.TabIndex = 5;
             this.a25.Text = "$25";
-            this.a25.UseVisualStyleBackColor = true;
+            this.a25.UseVisualStyleBackColor = false;
             this.a25.Click += new System.EventHandler(this.a25_Click);
             // 
             // a10
             // 
+            this.a10.BackColor = System.Drawing.Color.Red;
             this.a10.Location = new System.Drawing.Point(209, 455);
             this.a10.Name = "a10";
             this.a10.Size = new System.Drawing.Size(75, 75);
             this.a10.TabIndex = 4;
             this.a10.Text = "$10";
-            this.a10.UseVisualStyleBackColor = true;
+            this.a10.UseVisualStyleBackColor = false;
             this.a10.Click += new System.EventHandler(this.a10_Click);
             // 
             // saldo
@@ -924,22 +949,50 @@
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // button1
+            // ruleta
             // 
-            this.button1.Location = new System.Drawing.Point(780, 197);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 144);
-            this.button1.TabIndex = 81;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ruleta.Controls.Add(this.pictureBox5);
+            this.ruleta.Controls.Add(this.pictureBox3);
+            this.ruleta.Location = new System.Drawing.Point(0, 0);
+            this.ruleta.Name = "ruleta";
+            this.ruleta.Size = new System.Drawing.Size(895, 549);
+            this.ruleta.TabIndex = 82;
+            this.ruleta.Visible = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(227, 109);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(443, 275);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(895, 565);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 35000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(889, 542);
+            this.Controls.Add(this.ruleta);
             this.Controls.Add(this.mesa);
             this.Controls.Add(this.inicio);
             this.Controls.Add(this.ayuda);
@@ -957,6 +1010,9 @@
             this.ayuda.ResumeLayout(false);
             this.ayuda.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.ruleta.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1026,7 +1082,11 @@
         private System.Windows.Forms.Button btnrojo;
         private System.Windows.Forms.TextBox logapuestas;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnApostar;
+        private System.Windows.Forms.Panel ruleta;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

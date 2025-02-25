@@ -19,6 +19,7 @@ namespace PracticaCasino
         private int ficha;
         private string color;
         private bool check = false;
+        private bool finalcheck = false;
         private string token;
         
         
@@ -27,24 +28,28 @@ namespace PracticaCasino
         {
             ficha = 100;
             check = true;
+            finalcheck = true;
         }
 
         private void a80_Click(object sender, EventArgs e)
         {
             ficha = 80;
             check = true;
+            finalcheck = true;
         }
 
         private void a50_Click(object sender, EventArgs e)
         {
             ficha = 50;
             check = true;
+            finalcheck = true;
         }
 
         private void a25_Click(object sender, EventArgs e)
         {
             ficha = 25;
             check = true;
+            finalcheck = true;
         }
 
 
@@ -52,6 +57,7 @@ namespace PracticaCasino
         {
             ficha = 10;
             check = true;
+            finalcheck = true;
         }
 
         public Form1()
@@ -158,21 +164,28 @@ namespace PracticaCasino
             
         }
 
-        private void Random()
+        private void timer2_Tick(object sender, EventArgs e)
         {
-
+            
+            timer2.Stop();
+            pictureBox5.Visible = false;
+            
+            
         }
 
-
-
-
-
-
-
-
-
-
-
+        private void btnApostar_Click(object sender, EventArgs e)
+        {
+            if (finalcheck == false)
+            {
+                MessageBox.Show("Apueste antes de girar la ruleta!");
+            }
+            else
+            {
+                ruleta.Visible = true;
+                timer2.Start();
+            }
+            
+        }
 
         private void brnnegro_Click(object sender, EventArgs e)
         {
@@ -1115,5 +1128,6 @@ namespace PracticaCasino
             }
         }
 
+        
     }
 }
