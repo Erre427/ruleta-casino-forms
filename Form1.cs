@@ -30,11 +30,9 @@ namespace PracticaCasino
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            
-            anim.Visible = false;
+            anim.Visible = false; // Ocultar el GIF cuando termine la animación
             CalcApuesta();
             timer2.Stop();
-
         }
 
         private void CalcApuesta()
@@ -80,8 +78,7 @@ namespace PracticaCasino
             apuesta.Clear();
             finalcheck = false;
 
-            // Habilitar los botones de apuesta nuevamente
-            ResetApuestas();
+            
         }
 
         private void ResetApuestas()
@@ -89,6 +86,12 @@ namespace PracticaCasino
             btnrojo.Enabled = true;
             btnnegro.Enabled = true;
             btncero.Enabled = true;
+            ganador.Visible = false;
+            perdedor.Visible = false;
+            ruleta.Visible = false;
+            anim.Visible = false; // Asegurar que se oculta cuando se reinician las apuestas
+
+            timer2.Stop(); // Asegurar que el timer se reinicia al resetear las apuestas
 
             for (int i = 1; i <= 36; i++)
             {
@@ -96,6 +99,7 @@ namespace PracticaCasino
                 if (btn != null) btn.Enabled = true;
             }
         }
+
 
         private void btnApostar_Click(object sender, EventArgs e)
         {
@@ -105,11 +109,17 @@ namespace PracticaCasino
             }
             else
             {
+                anim.Visible = false; // Ocultar el GIF antes de reiniciarlo
+                pictureBox5.Image = null; // Eliminar la imagen actual
+                pictureBox5.Image = Properties.Resources.ruletaGIF; // Asignar nuevamente el GIF para reiniciarlo
+                anim.Visible = true; // Hacer visible el GIF nuevamente
+
                 ruleta.Visible = true;
+                timer2.Stop(); // Reiniciar el timer antes de comenzarlo nuevamente
                 timer2.Start();
             }
-
         }
+
 
         private void a100_Click(object sender, EventArgs e)
         {
@@ -1273,12 +1283,14 @@ namespace PracticaCasino
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            ruleta.Visible = false;
+            // Habilitar los botones de apuesta nuevamente
+            ResetApuestas();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ruleta.Visible = false;
+            // Habilitar los botones de apuesta nuevamente
+            ResetApuestas();
         }
     }
 }

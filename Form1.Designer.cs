@@ -95,24 +95,24 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.ruleta = new System.Windows.Forms.Panel();
+            this.perdedor = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.nganador2 = new System.Windows.Forms.Label();
+            this.ganador = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.nganancia1 = new System.Windows.Forms.Label();
+            this.nganador1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.anim = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.lblGirando = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.ganador = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.nganador1 = new System.Windows.Forms.Label();
-            this.nganancia1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.perdedor = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.nganador2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.inicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).BeginInit();
@@ -122,11 +122,11 @@
             this.ayuda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.ruleta.SuspendLayout();
+            this.perdedor.SuspendLayout();
+            this.ganador.SuspendLayout();
             this.anim.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.ganador.SuspendLayout();
-            this.perdedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -972,8 +972,8 @@
             // 
             // ruleta
             // 
-            this.ruleta.Controls.Add(this.perdedor);
             this.ruleta.Controls.Add(this.ganador);
+            this.ruleta.Controls.Add(this.perdedor);
             this.ruleta.Controls.Add(this.anim);
             this.ruleta.Controls.Add(this.pictureBox3);
             this.ruleta.Location = new System.Drawing.Point(0, 0);
@@ -981,144 +981,6 @@
             this.ruleta.Size = new System.Drawing.Size(895, 549);
             this.ruleta.TabIndex = 82;
             this.ruleta.Visible = false;
-            // 
-            // anim
-            // 
-            this.anim.BackColor = System.Drawing.Color.Green;
-            this.anim.Controls.Add(this.label5);
-            this.anim.Controls.Add(this.lblGirando);
-            this.anim.Controls.Add(this.pictureBox5);
-            this.anim.Location = new System.Drawing.Point(88, 62);
-            this.anim.Name = "anim";
-            this.anim.Size = new System.Drawing.Size(694, 409);
-            this.anim.TabIndex = 12;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(264, 354);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(162, 25);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Buena Suerte!";
-            // 
-            // lblGirando
-            // 
-            this.lblGirando.AutoSize = true;
-            this.lblGirando.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGirando.Location = new System.Drawing.Point(236, 27);
-            this.lblGirando.Name = "lblGirando";
-            this.lblGirando.Size = new System.Drawing.Size(235, 25);
-            this.lblGirando.TabIndex = 12;
-            this.lblGirando.Text = "NO MAS APUESTAS!";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(129, 61);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(443, 275);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(895, 565);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // timer2
-            // 
-            this.timer2.Interval = 35000;
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // ganador
-            // 
-            this.ganador.BackColor = System.Drawing.Color.Green;
-            this.ganador.Controls.Add(this.button1);
-            this.ganador.Controls.Add(this.nganancia1);
-            this.ganador.Controls.Add(this.nganador1);
-            this.ganador.Controls.Add(this.label8);
-            this.ganador.Controls.Add(this.label7);
-            this.ganador.Controls.Add(this.label6);
-            this.ganador.Location = new System.Drawing.Point(88, 59);
-            this.ganador.Name = "ganador";
-            this.ganador.Size = new System.Drawing.Size(694, 412);
-            this.ganador.TabIndex = 14;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(208, 138);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(280, 25);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "FELICIDADES! GANASTE";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(139, 177);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(244, 25);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "NUMERO GANADOR: ";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(228, 215);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(155, 25);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "GANANCIA: $";
-            // 
-            // nganador1
-            // 
-            this.nganador1.AutoSize = true;
-            this.nganador1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.nganador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nganador1.Location = new System.Drawing.Point(389, 177);
-            this.nganador1.Name = "nganador1";
-            this.nganador1.Size = new System.Drawing.Size(25, 25);
-            this.nganador1.TabIndex = 17;
-            this.nganador1.Text = "0";
-            // 
-            // nganancia1
-            // 
-            this.nganancia1.AutoSize = true;
-            this.nganancia1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.nganancia1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nganancia1.Location = new System.Drawing.Point(389, 215);
-            this.nganancia1.Name = "nganancia1";
-            this.nganancia1.Size = new System.Drawing.Size(25, 25);
-            this.nganancia1.TabIndex = 18;
-            this.nganancia1.Text = "0";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(252, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(181, 45);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "VOLVER";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // perdedor
             // 
@@ -1178,6 +1040,144 @@
             this.nganador2.TabIndex = 20;
             this.nganador2.Text = "0";
             // 
+            // ganador
+            // 
+            this.ganador.BackColor = System.Drawing.Color.Green;
+            this.ganador.Controls.Add(this.button1);
+            this.ganador.Controls.Add(this.nganancia1);
+            this.ganador.Controls.Add(this.nganador1);
+            this.ganador.Controls.Add(this.label8);
+            this.ganador.Controls.Add(this.label7);
+            this.ganador.Controls.Add(this.label6);
+            this.ganador.Location = new System.Drawing.Point(88, 59);
+            this.ganador.Name = "ganador";
+            this.ganador.Size = new System.Drawing.Size(694, 412);
+            this.ganador.TabIndex = 14;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Location = new System.Drawing.Point(252, 267);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(181, 45);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "VOLVER";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // nganancia1
+            // 
+            this.nganancia1.AutoSize = true;
+            this.nganancia1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.nganancia1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nganancia1.Location = new System.Drawing.Point(389, 215);
+            this.nganancia1.Name = "nganancia1";
+            this.nganancia1.Size = new System.Drawing.Size(25, 25);
+            this.nganancia1.TabIndex = 18;
+            this.nganancia1.Text = "0";
+            // 
+            // nganador1
+            // 
+            this.nganador1.AutoSize = true;
+            this.nganador1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.nganador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nganador1.Location = new System.Drawing.Point(389, 177);
+            this.nganador1.Name = "nganador1";
+            this.nganador1.Size = new System.Drawing.Size(25, 25);
+            this.nganador1.TabIndex = 17;
+            this.nganador1.Text = "0";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(228, 215);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(155, 25);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "GANANCIA: $";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(139, 177);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(244, 25);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "NUMERO GANADOR: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(208, 138);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(280, 25);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "FELICIDADES! GANASTE";
+            // 
+            // anim
+            // 
+            this.anim.BackColor = System.Drawing.Color.Green;
+            this.anim.Controls.Add(this.label5);
+            this.anim.Controls.Add(this.lblGirando);
+            this.anim.Controls.Add(this.pictureBox5);
+            this.anim.Location = new System.Drawing.Point(88, 62);
+            this.anim.Name = "anim";
+            this.anim.Size = new System.Drawing.Size(694, 409);
+            this.anim.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(264, 354);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(162, 25);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Buena Suerte!";
+            // 
+            // lblGirando
+            // 
+            this.lblGirando.AutoSize = true;
+            this.lblGirando.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGirando.Location = new System.Drawing.Point(236, 27);
+            this.lblGirando.Name = "lblGirando";
+            this.lblGirando.Size = new System.Drawing.Size(235, 25);
+            this.lblGirando.TabIndex = 12;
+            this.lblGirando.Text = "NO MAS APUESTAS!";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(129, 61);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(443, 275);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(895, 565);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 35000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1205,14 +1205,14 @@
             this.ayuda.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ruleta.ResumeLayout(false);
+            this.perdedor.ResumeLayout(false);
+            this.perdedor.PerformLayout();
+            this.ganador.ResumeLayout(false);
+            this.ganador.PerformLayout();
             this.anim.ResumeLayout(false);
             this.anim.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.ganador.ResumeLayout(false);
-            this.ganador.PerformLayout();
-            this.perdedor.ResumeLayout(false);
-            this.perdedor.PerformLayout();
             this.ResumeLayout(false);
 
         }
